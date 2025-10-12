@@ -88,7 +88,7 @@ def show_faq_suggestions(tab_category, lang="English"):
     if not shown and tab_category in STATIC_FAQ:
         for i, q in enumerate(STATIC_FAQ[tab_category]):
             if st.button(q, key=f"static_{tab_category}_{i}"):
-                st.info(f"Bella: I'm still learning, but here's a tip about '{q}'.")
+                st.info(f"💃🏼: I'm still learning, but here's a tip about '{q}'.")
 # ======== END: Static + CSV-Based FAQ Prompts ========
 
 # Language selector
@@ -181,11 +181,11 @@ with tabs[1]:
     user_input = st.text_input(text['chat_input'])
     if user_input:
         if "hola" in user_input.lower() or "oi" in user_input.lower():
-            st.write("Bella: ¡Hola! ¿Cómo estás?")
+            st.write("💃🏼: ¡Hola! ¿Cómo estás?")
         elif "trabajo" in user_input.lower() or "trabalho" in user_input.lower():
-            st.write("Bella: ¿Dónde trabajas?")
+            st.write("💃🏼: ¿Dónde trabajas?")
         else:
-            st.write("Bella: ¡Sigue practicando!")
+            st.write("💃🏼: ¡Sigue practicando!")
 
 # Book Trial
 with tabs[2]:
