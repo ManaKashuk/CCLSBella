@@ -10,7 +10,7 @@ lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Por
 # Translation dictionaries
 text = {
     "English": {
-        "title": " 🗨️ Meet Bella: Your Spanish Class Assistant",
+        "title": " 🗨️ Meet Bella: Your Spanish Class Assistant 💃🏼",
         "subtitle": "📚 Class finder, chatbot, trial booking, and progress tracking.",
         "tabs": ["Class Finder", "Chat", "Book Trial", "Learner", "Staff"],
         "class_q1": "Why Spanish?",
