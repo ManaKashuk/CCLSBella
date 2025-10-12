@@ -69,7 +69,7 @@ text = {
 }[lang]
 
 st.set_page_config(page_title=text['title'], layout="centered")
-st.image("assets/logo.png", width=200)
+st.image("assets/logo.png", width=1000)
 st.title(text['title'])
 st.subheader(text['subtitle'])
 
