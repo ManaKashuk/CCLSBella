@@ -5,7 +5,7 @@ import pandas as pd
 from utils import staff_login, learner_login, read_leads
 
 # Language selector
-lang = st.sidebar.selectbox("🌐 Select Language", ["English 🏳️‍🌈", "Español", "Português"])
+lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Português"])
 
 # Translation dictionaries
 text = {
