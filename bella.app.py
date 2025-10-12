@@ -94,7 +94,7 @@ def show_faq_suggestions(tab_category, lang="English"):
 # Language selector
 lang_option = st.sidebar.selectbox(
     "🌐 Select Language",
-    ["🇺🇸 English", "🇪🇸 Español", "🇧🇷 Português"]
+    ["English", "Español", "Português"]
 )
 
 # Extract language name from the selected emoji label
