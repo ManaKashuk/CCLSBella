@@ -92,7 +92,7 @@ def show_faq_suggestions(tab_category, lang="English"):
 # ======== END: Static + CSV-Based FAQ Prompts ========
 
 # Language selector
-lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Português"])
+lang = st.sidebar.selectbox("🌐 Select Language/Idioma", ["English", "Español", "Português"])
 
 # Translation dictionaries
 text = {
