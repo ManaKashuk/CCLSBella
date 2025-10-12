@@ -92,7 +92,13 @@ def show_faq_suggestions(tab_category, lang="English"):
 # ======== END: Static + CSV-Based FAQ Prompts ========
 
 # Language selector
-lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Português"])
+lang_option = st.sidebar.selectbox(
+    "🌐 Select Language",
+    ["🇺🇸 English", "🇪🇸 Español", "🇧🇷 Português"]
+)
+
+# Extract language name from the selected emoji label
+lang = lang_option.split(" ", 1)[1]
 
 # Translation dictionaries
 text = {
