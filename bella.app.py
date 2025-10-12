@@ -97,8 +97,8 @@ lang = st.sidebar.selectbox("🌐 Select Language/Idioma", ["English", "Español
 # Translation dictionaries
 text = {
     "English": {
-        "title": " 🗨️ Meet Bella: Your Spanish Class Assistant 💃🏼",
-        "subtitle": "📚 Class finder, trial booking, and progress tracking.",
+        "title": " 🗨️Meet Bella: Your Spanish Class Assistant💃🏼",
+        "subtitle": "📚Class finder, trial booking, and progress tracking.",
         "tabs": ["Class Finder", "Chat", "Book Trial", "Learner", "Staff"],
         "class_q1": "Why Spanish?",
         "class_q2": "Class type",
@@ -116,8 +116,8 @@ text = {
         "staff_msg": "Logged in as staff.",
     },
     "Español": {
-        "title": "🗨️ Conoce a Bella: tu asistente de clase de español 💃🏼",
-        "subtitle": "📚 Buscador de clases, registro y seguimiento.",
+        "title": "🗨️Conoce a Bella: tu asistente de clase de español💃🏼",
+        "subtitle": "📚Buscador de clases, registro y seguimiento.",
         "tabs": ["Buscar Clase", "Chat", "Reservar Prueba", "Estudiante", "Staff"],
         "class_q1": "¿Por qué aprender español?",
         "class_q2": "Tipo de clase",
@@ -135,8 +135,8 @@ text = {
         "staff_msg": "Acceso del staff.",
     },
     "Português": {
-        "title": "🗨️ Conheça Bella: sua assistente de aula de espanhol 💃🏼",
-        "subtitle": "📚 Localizador de aulas, agendamento e progresso.",
+        "title": "🗨️Conheça Bella: sua assistente de aula de espanhol💃🏼",
+        "subtitle": "📚Localizador de aulas, agendamento e progresso.",
         "tabs": ["Encontrar Aula", "Chat", "Agendar Aula", "Aluno", "Equipe"],
         "class_q1": "Por que aprender espanhol?",
         "class_q2": "Tipo de aula",
