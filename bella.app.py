@@ -98,7 +98,7 @@ lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Por
 text = {
     "English": {
         "title": " 🗨️ Meet Bella: Your Spanish Class Assistant 💃🏼",
-        "subtitle": "📚 Class finder, chatbot, trial booking, and progress tracking.",
+        "subtitle": "📚 Class finder, trial booking, and progress tracking.",
         "tabs": ["Class Finder", "Chat", "Book Trial", "Learner", "Staff"],
         "class_q1": "Why Spanish?",
         "class_q2": "Class type",
@@ -117,7 +117,7 @@ text = {
     },
     "Español": {
         "title": "🗨️ Conoce a Bella: tu asistente de clase de español 💃🏼",
-        "subtitle": "📚 Buscador de clases, chatbot, registro y seguimiento.",
+        "subtitle": "📚 Buscador de clases, registro y seguimiento.",
         "tabs": ["Buscar Clase", "Chat", "Reservar Prueba", "Estudiante", "Staff"],
         "class_q1": "¿Por qué aprender español?",
         "class_q2": "Tipo de clase",
@@ -136,7 +136,7 @@ text = {
     },
     "Português": {
         "title": "🗨️ Conheça Bella: sua assistente de aula de espanhol 💃🏼",
-        "subtitle": "📚 Localizador de aulas, chatbot, agendamento e progresso.",
+        "subtitle": "📚 Localizador de aulas, agendamento e progresso.",
         "tabs": ["Encontrar Aula", "Chat", "Agendar Aula", "Aluno", "Equipe"],
         "class_q1": "Por que aprender espanhol?",
         "class_q2": "Tipo de aula",
