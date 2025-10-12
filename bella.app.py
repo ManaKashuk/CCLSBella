@@ -156,3 +156,14 @@ def read_leads(file_path):
     if os.path.exists(file_path):
         return pd.read_csv(file_path, header=None, names=["Name", "Email", "Level", "Schedule/Message"])
     return pd.DataFrame(columns=["Name", "Email", "Level", "Schedule/Message"])
+
+# ---------- Footer ----------
+st.markdown(
+    """
+    <hr style="margin-top:2rem; margin-bottom:0.5rem;">
+    <div style="text-align:center; font-size:1rem; color:gray;">
+        © 2025 CCLS Hoston | 701 N Post Oak Rd Suite 515 Houston, TX 77024 | (832) 562-0133<br>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
