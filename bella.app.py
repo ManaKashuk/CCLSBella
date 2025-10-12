@@ -4,6 +4,9 @@ import os
 import pandas as pd
 from utils import staff_login, learner_login, read_leads
 
+# Language selector
+lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Português"])
+
 
 # ======== BEGIN: Static + CSV-Based FAQ Prompts ========
 import pandas as pd
@@ -90,9 +93,6 @@ def show_faq_suggestions(tab_category, lang="English"):
             if st.button(q, key=f"static_{tab_category}_{i}"):
                 st.info(f"Bella: I'm still learning, but here's a tip about '{q}'.")
 # ======== END: Static + CSV-Based FAQ Prompts ========
-
-# Language selector
-lang = st.sidebar.selectbox("🌐 Select Language", ["English", "Español", "Português"])
 
 # Extract language name from the selected emoji label
 lang = lang_option.split(" ", 1)[1]
