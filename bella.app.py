@@ -29,7 +29,7 @@ text = {
         "staff_msg": "Logged in as staff.",
     },
     "Español": {
-        "title": "🗨️ Conoce a Bella: tu asistente de clase de español",
+        "title": "🗨️ Conoce a Bella: tu asistente de clase de español 💃🏼",
         "subtitle": "📚 Buscador de clases, chatbot, registro y seguimiento.",
         "tabs": ["Buscar Clase", "Chat", "Reservar Prueba", "Estudiante", "Staff"],
         "class_q1": "¿Por qué aprender español?",
@@ -48,7 +48,7 @@ text = {
         "staff_msg": "Acceso del staff.",
     },
     "Português": {
-        "title": "🗨️ Conheça Bella: sua assistente de aula de espanhol",
+        "title": "🗨️ Conheça Bella: sua assistente de aula de espanhol 💃🏼",
         "subtitle": "📚 Localizador de aulas, chatbot, agendamento e progresso.",
         "tabs": ["Encontrar Aula", "Chat", "Agendar Aula", "Aluno", "Equipe"],
         "class_q1": "Por que aprender espanhol?",
